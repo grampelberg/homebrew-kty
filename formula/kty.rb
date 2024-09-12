@@ -12,9 +12,6 @@ class Kty < Formula
   on_macos do
   end
 
-  on_linux do
-  end
-
   def install
     bin.install "*" => "kty"
   end
