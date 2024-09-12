@@ -17,7 +17,7 @@ class Kty < Formula
   end
 
   def install
-    bin.install "*" => "kty"
+    bin.install "kty" => "kty"
   end
 
   test do
