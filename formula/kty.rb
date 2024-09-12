@@ -10,6 +10,10 @@ class Kty < Formula
   license "Apache-2.0"
 
   on_macos do
+    on_arm do
+      url "https://github.com/grampelberg/kty/releases/download/v0.2.1/kty-0.2.1-darwin-arm64.tar.gz"
+      sha256 "df9c3fab5341fdf18005ec3f0643013fcdef0bbfafbf436ad9d76a439aca29d6"
+    end
   end
 
   def install
