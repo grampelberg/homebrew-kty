@@ -1,18 +1,14 @@
 # kty
 
-## How do I install these formulae?
+## Usage
 
-`brew install grampelberg/kty/<formula>`
+```bash
+# Setup tap
+brew tap grampelberg/kty
 
-Or `brew tap grampelberg/kty` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "grampelberg/kty"
-brew "<formula>"
+# Check the tap for available formulas
+brew search grampelberg/kty
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+<!-- project_table_start -->
+<!-- project_table_end -->
