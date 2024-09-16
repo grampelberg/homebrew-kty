@@ -5,26 +5,26 @@
 class Kty < Formula
   desc "Terminal for kubernetes"
   homepage "https://github.com/grampelberg/kty"
-  url "https://github.com/grampelberg/kty/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "8293f62b8c008089aa56b319dbb702edb960aa73365eca8dcb53279880d29b47"
+  url "https://github.com/grampelberg/kty/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "050c8b0df88f65e1a06863bea99495b77bf2045829825e7e130756f1828c6aa6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/grampelberg/kty/releases/download/v0.3.0/kty-0.3.0-darwin-arm64.tar.gz"
-      sha256 "843819ac621d73f1f98aa75adfd6eb328745009ff27d9fc2eceedb29809b1280"
+      url "https://github.com/grampelberg/kty/releases/download/v0.3.1/kty-0.3.1-darwin-arm64.tar.gz"
+      sha256 "2fef571f8b14427dddcaf204c5f7c8435b45a25b714701867356e1a55821ce40"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/grampelberg/kty/releases/download/v0.3.0/kty-0.3.0-linux-amd64.tar.gz"
-      sha256 "3b87e44cf1e9950e54ff76bef127c7e37d2cd37f9b560a32309bbcb7a68b08e8"
+      url "https://github.com/grampelberg/kty/releases/download/v0.3.1/kty-0.3.1-linux-amd64.tar.gz"
+      sha256 "09fcc64cebf72fa29cebb0eed26994d9139f366cd93d2ee7183ac69237508860"
     end
 
     on_arm do
-      url "https://github.com/grampelberg/kty/releases/download/v0.3.0/kty-0.3.0-linux-arm64.tar.gz"
-      sha256 "a2856dd547f9b9b5685683a645e2a5e5e59ce158d05ac204b01053248c174d5f"
+      url "https://github.com/grampelberg/kty/releases/download/v0.3.1/kty-0.3.1-linux-arm64.tar.gz"
+      sha256 "03d26bf41e1d01b24120757d2e8aeac4b15149f21f2119db5898f9c52a429b9d"
     end
   end
 
